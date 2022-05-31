@@ -24,9 +24,9 @@ jobs:
       - name: docker-web
         run: |
           cd web
-          docker build -t chachou/docker-web
+          docker build -t chachou/docker-web .
           
       - name: docker-db
         run: |
           cd db
-          docker build -t chachou/docker-db
+          docker build -t chachou/docker-db .
